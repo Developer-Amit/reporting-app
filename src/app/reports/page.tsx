@@ -9,7 +9,7 @@ const Reports: React.FC = () => {
 
   return (
     <Layout>
-      <h1 className="text-3xl font-bold">Reports</h1>
+      <h1 className="text-3xl font-bold mb-10">Reports</h1>
       <IframeReport src={reportUrl} title="My Report" />
     </Layout>
   );
